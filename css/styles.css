@@ -356,6 +356,7 @@ a {
 }
 
 .card-team {
+  display: block;
   max-width: 270px;
   text-align: center;
   border-radius: 0px 0px 4px 4px;
@@ -489,7 +490,6 @@ a {
 
 .filter-btn-list {
   margin-bottom: 50px;
-
   display: flex;
   justify-content: center;
 }
