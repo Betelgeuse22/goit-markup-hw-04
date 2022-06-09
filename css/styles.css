@@ -183,6 +183,10 @@ a {
   fill: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .auth-nav-link {
   display: flex;
   align-items: center;
