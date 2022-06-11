@@ -70,7 +70,7 @@ a {
 
 /*------------------BUTTON------------------*/
 
-.hero [type='button'] {
+.btn-hero {
   background-color: var(--accent-color);
   font-family: 'Roboto';
   font-style: normal;
@@ -85,9 +85,12 @@ a {
   min-width: 200px;
   padding: 10px 32px;
   margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: transparent;
+  border-radius: 4px;
 }
 
-[type='button'] {
+.filter-btn {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
@@ -103,8 +106,8 @@ a {
   padding: 6px 22px;
 }
 
-[type='button']:hover,
-[type='button']:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   background-color: var(--accent-color);
   color: var(--secondary-text-color);
 }
@@ -507,7 +510,7 @@ header .logo:hover::after {
   justify-content: center;
 }
 
-.filter-btn:not(:last-child) {
+.filter-btn-item:not(:last-child) {
   margin-right: 8px;
 }
 
