@@ -205,39 +205,41 @@ a {
 
 /*------------------LOGO------------------*/
 
-.logo-web {
-  color: var(--accent-color);
-}
-
-.logo-studio-black {
-  color: #000000;
-}
-.logo-studio-white {
-  color: var(--secondary-text-color);
-}
-
 .logo {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-
+  color: var(--accent-color);
   margin-right: 93px;
 }
 
-.logo .logo-studio-black:hover,
-.logo .logo-studio-black:focus {
+footer .logo:focus,
+footer .logo:hover {
+  color: var(--secondary-text-color);
+}
+footer .logo::after {
+  content: 'Studio';
+  color: var(--secondary-text-color);
+}
+
+footer .logo:focus::after,
+footer .logo:hover::after {
   color: var(--accent-color);
 }
 
-.logo .logo-studio-white:hover,
-.logo .logo-studio-white:focus {
-  color: var(--accent-color);
+header .logo::after {
+  content: 'Studio';
+  color: var(--title-text-color);
+}
+header .logo:focus,
+header .logo:hover {
+  color: var(--title-text-color);
 }
 
-.logo .logo-web:hover,
-.logo .logo-web:focus {
+header .logo:focus::after,
+header .logo:hover::after {
   color: var(--accent-color);
 }
 
